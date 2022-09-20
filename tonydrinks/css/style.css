@@ -98,7 +98,8 @@ header {
 
 .hero {
     height: 95vh;
-    background-image:url("https://www.crushpixel.com/big-static20/preview4/vector-bar-design-with-handsketched-4713557.jpg");
+    background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
+    /*url("https://www.crushpixel.com/big-static20/preview4/vector-bar-design-with-handsketched-4713557.jpg");*/
     background-position: center;
     background-attachment: fixed;
     display: flex;
@@ -112,28 +113,36 @@ header {
 .hero__textos h1{
     font-size: 5rem;
     font-weight: 700;
-    text-shadow:
-        0 0 32px #843ED8,
-        0 0 42px #843ED8,
-        0 0 52px #843ED8,
-        0 0 52px #843ED8,
-        0 0 52px #843ED8;
-       
-
+    text-shadow:0 0 32px #0096FF,
+    0 0 42px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF;
+    
+    /*0 0 32px #31E1F7,
+    0 0 42px #31E1F7,
+    0 0 52px #31E1F7,
+    0 0 52px #31E1F7,
+    0 0 52px #31E1F7;
+*/
 }
 .hero__textos h2{
     font-size: 3.5rem;
     font-weight: 700;
-    text-shadow:
-    0 0 32px #843ED8,
-    0 0 42px #843ED8,
-    0 0 52px #843ED8,
-    0 0 52px #843ED8,
-    0 0 52px #843ED8;
+    text-shadow:0 0 32px #0096FF,
+    0 0 42px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF;/*0 0 32px #31E1F7,
+    0 0 42px #31E1F7,
+    0 0 52px #31E1F7,
+    0 0 52px #31E1F7,
+    0 0 52px #31E1F7;
+*/
 }
 .hero__textos {
     text-align: center;
-    color: white;
+    color:rgba(247, 247, 247, 0.89);
     
 
 
