@@ -82,7 +82,7 @@ header {
 /*MAS INFORMACION*/
 
 .hero {
-    height: 85vh;
+    height: 95vh;
     background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
     background-position: center;
     display: flex;
@@ -291,6 +291,9 @@ header {
     background-color: #1A1A2E;
     
 }
+.mapa{
+    background-color:#18c0b8f3; 
+}
 .iframe{
     width: 100%;
     
@@ -483,8 +486,10 @@ footer {
     padding: 10px;
     
 }
-/*MEDIA QUERY*/
-@media only screen and (max-width:450px){
+
+
+/*MEDIA QUERY MOBILE 400PX-450PX*/
+@media only screen and (min-width:400px) and (max-width:450px){
     /*HERO */
     .hero{
         height: 55vh;
@@ -524,18 +529,14 @@ footer {
     .fondo-destacados{
         display:none;
     }
-    /*PRODUCTOS*/
-    /*MEDIA QUERY / BEBIDA CON ALCOHOL*/
+   /*MEDIA QUERY / PRODUCTOS*/
+    /*BEBIDA CON ALCOHOL*/
     .titulo-productos{
         font-size: 30px;
     }
-
-    .titulo-ubicacion{
-        font-size: 32px;
-    }
     .productos{
-        margin: 15px 0;
-        width: 220px;
+        margin: 10px 0;
+        width: 200px;
     }
     .productos img{
         width: 110px;
@@ -546,8 +547,15 @@ footer {
         font-size: 15px;
     }
     /*MEDIA QUERY / UBICACION Y CONTACTO*/
+    .titulo-ubicacion{
+        font-size: 2rem;
+    }
     .iframe{
-        display: none;
+        width: 380px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin: 7px auto;
     }
     .direccion-contacto h2{
         font-size: 2.2rem;
@@ -572,10 +580,10 @@ footer {
      }
     /*MEDIA QUERY / RECOMENDACIONES*/
     .recomendaciones{
-        width: 440px; 
+        width: 400px; 
     }
     .lista-recomendaciones{
-        width: 450px;
+        width: 400px;
         margin: 10px auto;
     }
     .titulo-recomendaciones{
