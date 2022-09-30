@@ -692,3 +692,10 @@ footer {
         width: 100px;
     }
 }
+/*MEDIA QUERY TABLET */
+@media only screen and (min-width:451px) and (max-width:960px){
+.titulo-ubicacion{
+    font-size: 2.2rem;
+}
+
+}
