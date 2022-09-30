@@ -40,9 +40,6 @@
 
 /*MENU DE NAVEGACION*/
 
-header {
-    width: 100%;
-}
 
 .logo {
     height: 100px;
@@ -120,33 +117,10 @@ header {
 
 }
 
-.fondo {
-    border-radius: 15%;
-    margin-top: 100px;
-    padding: 5px 10px;
-
-
-
-
-}
-
-.boton {
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    background: #843ED8;
-    color: white;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: bold;
-
-
-}
-
 /*MAIN-CUERPO*/
 
 /*BENEFICIOS*/
+
 .segunda-seccion {
 
     background-color: black;
@@ -242,6 +216,7 @@ header {
 .fondo-Salcohol{
     background-color: #f14040b6;
 }
+
 .titulo-productos {
     color: white;
     font-size: 42px;
@@ -272,7 +247,9 @@ header {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 /*SECCION UBICACION*/
+
 .titulo-ubicacion{
     color: white;
     font-size: 42px;
@@ -283,25 +260,20 @@ header {
     height: 3rem;
 }
 
-.ubicacion{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #1A1A2E;
-    
-}
 .mapa{
     background-color:#18c0b8f3; 
 }
+
 .iframe{
     width: 100%;
     
 }
+
 .direccion-contacto{
     background-color: lightslategray;
    
 }
+
 .direccion-contacto h2{
     font-size: 2.7rem;
     color: rgba(0, 0, 0, 0.733);
@@ -311,6 +283,7 @@ header {
     justify-content: center;
     font-weight: 600;
 }
+
 .direccion-contacto h3{
     font-size: 2,3rem;
     color: white;
@@ -325,6 +298,7 @@ header {
     color: black;
     margin: 0 10px;
 }
+
 /*FORMULARIO DE INICIO DE SESION*/
 .titulo-formulario{
     text-align: center;
@@ -487,20 +461,126 @@ footer {
     
 }
 
+/*MEDIA QUERY MOBILE MAX 359PX*/
+@media only screen and (max-width:359px){
+    /*HERO*/
+    .hero{
+        height: 50vh;
+    }
+    .hero__textos h1{
+        font-size: 3.5rem;
+    }
+    .hero__textos h2{
+        font-size: 2.3rem;
+    }
+    /*MEDIA QUERY / INDEX MAX 359PX*/
+.titulo-secciones{
+    font-size: 25px;
+}
+.copy{
+    font-size: 17px;
+}
+.beneficios{
+    margin: 42px;
+    height: 270px;
+}
+.beneficios img{
+    width: 155px;
+    height: 175px;
+    box-shadow:0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 7px #fff,
+        0 0 18px #843ED8,
+        0 0 22px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8;
+}
+.beneficios p{
+    font-size: 18px;
+}
+.fondo-destacados{
+    display: none;
+}
+/*MEDIA QUERY / PRODUCTOS MAX 359PX*/
+.titulo-productos{
+    font-size: 25px;
+}
+.productos{
+    margin: 5px 0;
+    width: 150px;
+}
+.productos img{
+    width: 105px;
+    height: 135px;
+    margin: 3px auto;
+}
+.productos p{
+    font-size: 14px;
+}
+/*MEDIA QUERY / UBICACION MAX 359PX*/
+.titulo-ubicacion{
+    font-size: 1.6rem;
+}
+/*MEDIA QUERY / NOSOTROS MAX 359PX*/
+.texto-nosotros{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 23px;
+    text-shadow:0 0 10px #208cf1,
+    0 0 12px #208cf1,
+    0 0 15px #208cf1,
+    0 0 22px #208cf1,
+    0 0 28px #208cf1; 
+}
+   /*MEDIA QUERY / RECOMENDACIONES MAX 359PX*/
+   .recomendaciones{
+    width: 320px; 
+}
+.lista-recomendaciones{
+    width: 310px;
+    margin: 5px auto;
+}
+.titulo-recomendaciones{
+    font-size: 23px;
+    width: 300px;
+    
+}
+.img-1{
+    height: 220px;
+    width: 130px;
+}
+.img-2{
+    height: 130px;
+    width: 130px;
+}
+.img-3{
+    width: 140px;
+    height: 180px;
+}
+.lista-ordenada{
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90px;
+}
+}
 
-/*MEDIA QUERY MOBILE 400PX-450PX*/
-@media only screen and (min-width:400px) and (max-width:450px){
+/*MEDIA QUERY MOBILE 360PX-450PX*/
+@media only screen and (min-width:360px) and (max-width:450px){
     /*HERO */
     .hero{
         height: 55vh;
     }
     .hero__textos h1{
-        font-size: 4rem;
+        font-size: 3.7rem;
     }
     .hero__textos h2{
         font-size: 2.5rem;
     }
-    /* MEDIA QUERY / INDEX*/
+    /* MEDIA QUERY / INDEX MOBILE 360PX-450PX*/
     .titulo-secciones{
         font-size: 30px;
     }
@@ -536,7 +616,7 @@ footer {
     }
     .productos{
         margin: 10px 0;
-        width: 200px;
+        width: 180px;
     }
     .productos img{
         width: 110px;
@@ -548,14 +628,14 @@ footer {
     }
     /*MEDIA QUERY / UBICACION Y CONTACTO*/
     .titulo-ubicacion{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .iframe{
-        width: 380px;
+        width: 320px;
         height: 300px;
         display: flex;
-        justify-content: center;
-        margin: 7px auto;
+        
+       
     }
     .direccion-contacto h2{
         font-size: 2.2rem;
@@ -563,7 +643,7 @@ footer {
     .direccion-contacto h3{
         display: flex;
         padding: 0 85px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     /*MEDIA QUERY / NOSOTROS*/
@@ -576,14 +656,15 @@ footer {
             0 0 12px #208cf1,
             0 0 15px #208cf1,
             0 0 22px #208cf1,
-            0 0 28px #208cf1; ;
+            0 0 28px #208cf1; 
      }
+    
     /*MEDIA QUERY / RECOMENDACIONES*/
     .recomendaciones{
-        width: 400px; 
+        width: 360px; 
     }
     .lista-recomendaciones{
-        width: 400px;
+        width: 350px;
         margin: 10px auto;
     }
     .titulo-recomendaciones{
@@ -593,15 +674,15 @@ footer {
     }
     .img-1{
         height: 250px;
-        width: 200px;
+        width: 150px;
     }
     .img-2{
-        height: 170px;
-        width: 230px;
+        height: 150px;
+        width: 160px;
     }
     .img-3{
-        width: 200px;
-        height: 240px;
+        width: 170px;
+        height: 200px;
     }
     .lista-ordenada{
         font-size: 18px;
