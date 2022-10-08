@@ -22,7 +22,10 @@
     --marginelementos: 40px;
 }
 
-.colorFondo {
+.fondo {
+    background-color: black;
+}
+.navbar-fondo{
     background-color: black;
 }
 
